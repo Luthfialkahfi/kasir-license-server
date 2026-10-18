@@ -1,0 +1,17 @@
+{
+  "name": "kasir-license-server",
+  "version": "1.0.0",
+  "description": "Server Lisensi Kasir Grosir dengan WhatsApp Gateway Baileys (100% Free Self-Hosted)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
